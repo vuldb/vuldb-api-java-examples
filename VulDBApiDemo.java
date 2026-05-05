@@ -26,7 +26,7 @@ public class VulDBApiDemo {
     public static void main(String[] args) {
         try {
             // API-URL
-            URL url = new URL("https://vuldb.com/?api");
+            URL url = new URL("https://vuldb.com/api");
 
             // Put Headers together, the headers are used for authentication
             String personalApiKey = "YOUR_API-KEY_HERE"; // Enter your personal API key here. They can be found here: https://vuldb.com/?my.apihistory
